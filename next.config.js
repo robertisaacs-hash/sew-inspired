@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+  // experimental: {
+  //   appDir: true, // This is now the default in Next.js 14
+  // },
   images: {
     domains: ['localhost', 'res.cloudinary.com', 'images.unsplash.com'],
     remotePatterns: [
