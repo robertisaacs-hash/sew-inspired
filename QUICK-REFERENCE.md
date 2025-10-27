@@ -8,7 +8,7 @@
 | **Admin Dashboard** | Manage business | `www.yoursite.com/admin` |
 | **Vercel** | Website hosting | `vercel.com/dashboard` |
 | **Stripe** | Payment processing | `dashboard.stripe.com` |
-| **Supabase** | Database | `supabase.com/dashboard` |
+| **Database** | Data storage | Choose one: `supabase.com/dashboard`, `neon.tech/app`, `planetscale.com/dashboard` |
 | **Cloudinary** | Image storage | `cloudinary.com/console` |
 
 ## 📊 Daily Admin Tasks (5 minutes)
@@ -48,8 +48,9 @@
 |-------|-------------|---------|
 | **Website Down** | `vercel.com/status` | Vercel Support Chat |
 | **Payment Issues** | Stripe Dashboard | `support.stripe.com` |
-| **Orders Not Showing** | Database connection | Supabase Support |
+| **Orders Not Showing** | Database connection | Your database provider support |
 | **Images Not Loading** | Cloudinary status | Cloudinary Support |
+| **Database Issues** | Your database dashboard | Supabase/Neon/PlanetScale support |
 
 ## 💡 Quick Fixes
 
