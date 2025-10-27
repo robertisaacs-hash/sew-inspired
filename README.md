@@ -2,6 +2,16 @@
 
 A modern, full-stack e-commerce website built for embroidery businesses with custom design visualization capabilities.
 
+## 📋 Documentation for Business Owners
+
+**🎯 New to running an online embroidery business?**
+📖 **Read [BUSINESS-SETUP.md](./BUSINESS-SETUP.md)** - Your complete step-by-step guide to understanding and setting up every part of your online business, including:
+- What each service does and why you need it (Vercel, Stripe, etc.)
+- Exact costs and pricing for each component
+- Step-by-step setup instructions with screenshots
+- How to manage daily operations
+- Monthly costs breakdown from startup to established business
+
 ## 🎯 Key Features
 
 - **Product Catalog** - Manage apparel, accessories, and embroidery services
@@ -184,17 +194,17 @@ Customer uploads image → Sees design on product → Adjusts placement → Adds
 │  🎨 Sew Inspired Logo    🛒 Cart (2) 👤Menu │
 ├─────────────────────────────────────────────┤
 │                                             │
-│      "CUSTOM EMBROIDERY FOR EVERY          │
+│      "CUSTOM EMBROIDERY FOR EVERY           │
 │             OCCASION"                       │
 │                                             │
 │  [Start Custom Design] [Browse Products]    │
 │                                             │
 ├─────────────────────────────────────────────┤
 │  Featured Products (with hover effects)     │
-│  [T-Shirt] [Hoodie] [Cap] [Polo] [Bag]    │
+│  [T-Shirt] [Hoodie] [Cap] [Polo] [Bag]      │
 ├─────────────────────────────────────────────┤
 │  Customer Testimonials (rotating carousel)  │
-│  ⭐⭐⭐⭐⭐ "Amazing quality!" - Sarah J.      │
+│  ⭐⭐⭐⭐⭐ "Amazing quality!" - Sarah J. │
 └─────────────────────────────────────────────┘
 ```
 
@@ -204,17 +214,17 @@ Customer uploads image → Sees design on product → Adjusts placement → Adds
 │   Design Controls   │     Live Preview      │
 ├─────────────────────┼───────────────────────┤
 │ 1. Choose Product:  │                       │
-│   ○ T-Shirt         │       👕              │
+│   ○ T-Shirt         │       👕             │
 │   ○ Hoodie          │   [Your Logo Here]    │
 │   ○ Baseball Cap    │                       │
-│   ○ Polo Shirt     │   Product mockup      │
+│   ○ Polo Shirt      │   Product mockup      │
 │                     │   with customer's     │
 │ 2. Upload Design:   │   design overlay      │
-│   [📁 Choose File]   │                       │
+│   [📁 Choose File]  │                      │
 │   ✓ logo.png        │   Real-time preview   │
 │                     │   updates as you      │
 │ 3. Preview Design:  │   make changes        │
-│   Size: ●━━━━○━━━━   │                       │
+│   Size: ●━━━━○━━━━  │                       │
 │   Position: drag    │                       │
 │                     │                       │
 │ [Get Free Quote]    │ ✅ Ready for embroidery│

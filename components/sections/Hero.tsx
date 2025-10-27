@@ -3,15 +3,15 @@ import Image from 'next/image'
 
 export function Hero() {
   return (
-    <section className="relative bg-gradient-to-r from-primary-600 to-primary-800 text-white">
+    <section className="relative bg-gradient-to-r from-primary-500 to-primary-700 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Custom <span className="text-secondary-300">Embroidery</span> for Every Occasion
+              Custom <span className="text-secondary-200">Embroidery</span> for Every Occasion
             </h1>
-            <p className="text-xl text-primary-100 mb-8">
+            <p className="text-xl text-secondary-100 mb-8">
               Transform your ideas into beautiful embroidered designs. From corporate logos to personal art, 
               we bring your vision to life with precision and care.
             </p>
@@ -34,16 +34,16 @@ export function Hero() {
             {/* Features */}
             <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="text-center sm:text-left">
-                <div className="text-2xl font-bold">500+</div>
-                <div className="text-primary-200">Happy Customers</div>
+                <div className="text-2xl font-bold text-white">500+</div>
+                <div className="text-secondary-200">Happy Customers</div>
               </div>
               <div className="text-center sm:text-left">
-                <div className="text-2xl font-bold">48hr</div>
-                <div className="text-primary-200">Fast Turnaround</div>
+                <div className="text-2xl font-bold text-white">48hr</div>
+                <div className="text-secondary-200">Fast Turnaround</div>
               </div>
               <div className="text-center sm:text-left">
-                <div className="text-2xl font-bold">100%</div>
-                <div className="text-primary-200">Quality Guarantee</div>
+                <div className="text-2xl font-bold text-white">100%</div>
+                <div className="text-secondary-200">Quality Guarantee</div>
               </div>
             </div>
           </div>

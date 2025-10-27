@@ -9,7 +9,8 @@
     @apply border-gray-200;
   }
   body {
-    @apply bg-white text-gray-900;
+    @apply text-charcoal;
+    background-color: #F5F3EC; /* Warm Cream background */
   }
 }
 
@@ -19,15 +20,15 @@
   }
   
   .btn-primary {
-    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
+    @apply bg-primary-500 text-white hover:bg-accent-500 focus:ring-primary-500 transition-colors duration-300;
   }
   
   .btn-secondary {
-    @apply bg-secondary-200 text-secondary-800 hover:bg-secondary-300 focus:ring-secondary-500;
+    @apply bg-secondary-500 text-white hover:bg-secondary-600 focus:ring-secondary-500;
   }
   
   .btn-outline {
-    @apply border border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white focus:ring-primary-500;
+    @apply border-2 border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white focus:ring-primary-500 transition-colors duration-300;
   }
   
   .input {
@@ -35,7 +36,8 @@
   }
   
   .card {
-    @apply bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden;
+    background-color: #ffffff;
+    @apply rounded-lg shadow-md border border-gray-200 overflow-hidden;
   }
 }
 
